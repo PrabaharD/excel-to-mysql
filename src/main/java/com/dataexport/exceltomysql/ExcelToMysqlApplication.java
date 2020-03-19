@@ -12,7 +12,7 @@ public class ExcelToMysqlApplication {
 		SpringApplication.run(ExcelToMysqlApplication.class, args);
 		
 		DataExporter dataExporter = new DataExporter();
-		dataExporter.testMethod();
+		dataExporter.excelToMysql();
 	}
 
 }
